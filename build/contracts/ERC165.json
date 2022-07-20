@@ -21,7 +21,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"supportsInterface(bytes4)\":{\"details\":\"Returns true if this contract implements the interface defined by `interfaceId`. See the corresponding https://eips.ethereum.org/EIPS/eip-165#how-interfaces-are-identified[EIP section] to learn more about how these ids are created. This function call must use less than 30 000 gas.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/External/ERC165.sol\":\"ERC165\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/External/ERC165.sol\":{\"keccak256\":\"0x8e00d4240c1b03af55c4dc34bf9875185da87964f448a4cd34cb5cf80d870014\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://62cec786e5891e17eb73c8da07f8a4f39583425acb791b59218836e3655a81ad\",\"dweb:/ipfs/QmUVc283Q5EhBtx8qgju3ScGncoHxEMtqSmSSJFFzPtYYV\"]},\"project:/contracts/External/IERC165.sol\":{\"keccak256\":\"0x04477a1cac572cc62ecd9df747d418b5898d40a6099a253b061dad31575a75fd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4aefb7b8801f749cebe99f13ea15979df1c73a16dbefcf2eb0f310c93149bd7f\",\"dweb:/ipfs/QmaGkUytPvCyquqpZbGe3eDkG2jCYZYVGug6GvVC1AavNi\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"supportsInterface(bytes4)\":{\"details\":\"Returns true if this contract implements the interface defined by `interfaceId`. See the corresponding https://eips.ethereum.org/EIPS/eip-165#how-interfaces-are-identified[EIP section] to learn more about how these ids are created. This function call must use less than 30 000 gas.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/External/ERC165.sol\":\"ERC165\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/External/ERC165.sol\":{\"keccak256\":\"0x8e00d4240c1b03af55c4dc34bf9875185da87964f448a4cd34cb5cf80d870014\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://62cec786e5891e17eb73c8da07f8a4f39583425acb791b59218836e3655a81ad\",\"dweb:/ipfs/QmUVc283Q5EhBtx8qgju3ScGncoHxEMtqSmSSJFFzPtYYV\"]},\"project:/contracts/External/IERC165.sol\":{\"keccak256\":\"0x04477a1cac572cc62ecd9df747d418b5898d40a6099a253b061dad31575a75fd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4aefb7b8801f749cebe99f13ea15979df1c73a16dbefcf2eb0f310c93149bd7f\",\"dweb:/ipfs/QmaGkUytPvCyquqpZbGe3eDkG2jCYZYVGug6GvVC1AavNi\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -84,7 +84,6 @@
             "src": "167:7:5"
           }
         ],
-        "canonicalName": "ERC165",
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
@@ -667,11 +666,11 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.8.15+commit.e14f2714.Emscripten.clang"
+    "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "3.4.8",
-  "updatedAt": "2022-07-19T13:13:19.811Z",
+  "updatedAt": "2022-07-20T11:58:08.622Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

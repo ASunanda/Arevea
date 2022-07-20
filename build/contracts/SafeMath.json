@@ -1,9 +1,9 @@
 {
   "contractName": "SafeMath",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"Math operations with safety checks that throw on error\",\"kind\":\"dev\",\"methods\":{},\"title\":\"SafeMath\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/External/SafeMath.sol\":\"SafeMath\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/External/SafeMath.sol\":{\"keccak256\":\"0xea060a43956deecfd79e602fc08adad0ac8e899ee37d67509b915546d249df3c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://eca8af2c52fa895aadc9945608323acf24c0879d50ea3966415704a20e52a134\",\"dweb:/ipfs/QmdA6QQ594Lj5fQAjdJo8bJTixGJKYok8VmjowxF5U9CQf\"]}},\"version\":1}",
-  "bytecode": "0x60566050600b82828239805160001a6073146043577f4e487b7100000000000000000000000000000000000000000000000000000000600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220dceaf7f6e6bdfd074309853b9364c3fc482dbdc41464b3454911c4b3d50bc0a864736f6c634300080f0033",
-  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220dceaf7f6e6bdfd074309853b9364c3fc482dbdc41464b3454911c4b3d50bc0a864736f6c634300080f0033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"Math operations with safety checks that throw on error\",\"kind\":\"dev\",\"methods\":{},\"title\":\"SafeMath\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/External/SafeMath.sol\":\"SafeMath\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/External/SafeMath.sol\":{\"keccak256\":\"0xea060a43956deecfd79e602fc08adad0ac8e899ee37d67509b915546d249df3c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://eca8af2c52fa895aadc9945608323acf24c0879d50ea3966415704a20e52a134\",\"dweb:/ipfs/QmdA6QQ594Lj5fQAjdJo8bJTixGJKYok8VmjowxF5U9CQf\"]}},\"version\":1}",
+  "bytecode": "0x60566050600b82828239805160001a6073146043577f4e487b7100000000000000000000000000000000000000000000000000000000600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122085879b271e3f70dc0351c0d3848d488856d4e765a1e22831031ff05ca6d246be64736f6c63430008040033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122085879b271e3f70dc0351c0d3848d488856d4e765a1e22831031ff05ca6d246be64736f6c63430008040033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
@@ -36,7 +36,6 @@
       {
         "abstract": false,
         "baseContracts": [],
-        "canonicalName": "SafeMath",
         "contractDependencies": [],
         "contractKind": "library",
         "documentation": {
@@ -2454,11 +2453,11 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.8.15+commit.e14f2714.Emscripten.clang"
+    "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "3.4.8",
-  "updatedAt": "2022-07-19T13:13:19.838Z",
+  "updatedAt": "2022-07-20T11:58:08.648Z",
   "devdoc": {
     "details": "Math operations with safety checks that throw on error",
     "kind": "dev",
