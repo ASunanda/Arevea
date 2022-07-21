@@ -1,11 +1,9 @@
  const HDWalletProvider = require('@truffle/hdwallet-provider');
-
  const fs = require('fs');
  const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 module.exports = {
  
-
   networks: {
     
      development: {
@@ -33,8 +31,7 @@ module.exports = {
       provider: () => new HDWalletProvider(mnemonic, `https://api.avax-test.network/ext/bc/C/rpc`),
       network_id: 43113,       
       gas: 5500000      
-          
-<<<<<<< HEAD
+
      },
 
 
@@ -43,8 +40,7 @@ module.exports = {
       network_id: 80001,      
       gas: 5500000,        
       
-=======
->>>>>>> b77a57f64f17392a0d6e54e2befba42708d07436
+
     },
     
   },
@@ -72,4 +68,3 @@ module.exports = {
   
   
 };
-  
