@@ -34,6 +34,7 @@ module.exports = {
       network_id: 43113,       
       gas: 5500000      
           
+<<<<<<< HEAD
      },
 
 
@@ -42,6 +43,8 @@ module.exports = {
       network_id: 80001,      
       gas: 5500000,        
       
+=======
+>>>>>>> b77a57f64f17392a0d6e54e2befba42708d07436
     },
     
   },

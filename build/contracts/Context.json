@@ -10,7 +10,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\r\n// OpenZeppelin Contracts (last updated v4.7.0) \r\n\r\npragma solidity ^0.8.4;\r\n\r\nabstract contract Context {\r\n    function _msgSender() internal view virtual returns (address payable) {\r\n        return payable(msg.sender);\r\n    }\r\n}",
-  "sourcePath": "C:\\Users\\91863\\Arevea\\contracts\\External\\Context.sol",
+  "sourcePath": "C:\\Users\\91863\\Arevea-Avalanche\\Arevea\\contracts\\External\\Context.sol",
   "ast": {
     "absolutePath": "project:/contracts/External/Context.sol",
     "exportedSymbols": {
@@ -200,7 +200,11 @@
   },
   "networks": {},
   "schemaVersion": "3.4.8",
+<<<<<<< HEAD
   "updatedAt": "2022-07-21T11:58:29.374Z",
+=======
+  "updatedAt": "2022-07-21T11:10:59.440Z",
+>>>>>>> b77a57f64f17392a0d6e54e2befba42708d07436
   "devdoc": {
     "kind": "dev",
     "methods": {},
