@@ -1,4 +1,4 @@
-Ethereum Rinkeby :
+Rinkeby :
 
 single - 0x601CFB29A5DAB3c4943Bf3A6C730d8987D8fbe9F
 
