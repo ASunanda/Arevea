@@ -366,7 +366,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\r\n// OpenZeppelin Contracts (last updated v4.7.0) \r\n \r\npragma solidity ^0.8.4;\r\n\r\nimport \"./IERC165.sol\";\r\n\r\ninterface IERC721 is IERC165 {\r\n\r\n    event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);\r\n\r\n    event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId);\r\n\r\n    event ApprovalForAll(address indexed owner, address indexed operator, bool approved);\r\n\r\n    event URI(string value, uint256 indexed id);\r\n\r\n    event tokenBaseURI(string value);\r\n\r\n    function balanceOf(address owner) external view returns (uint256 balance);\r\n \r\n    function royaltyFee(uint256 tokenId) external view  returns(uint256);\r\n        \r\n    function getCreator(uint256 tokenId) external view returns(address);\r\n\r\n    function ownerOf(uint256 tokenId) external view returns (address owner);\r\n\r\n    function safeTransferFrom(address from, address to, uint256 tokenId) external;\r\n\r\n    function transferFrom(address from, address to, uint256 tokenId) external;\r\n\r\n    function approve(address to, uint256 tokenId) external;\r\n\r\n    function getApproved(uint256 tokenId) external view returns (address operator);\r\n\r\n    function setApprovalForAll(address operator, bool _approved) external;\r\n\r\n    function isApprovedForAll(address owner, address operator) external view returns (bool);\r\n\r\n    function safeTransferFrom(address from, address to, uint256 tokenId, bytes calldata data) external;\r\n}\r\n",
-  "sourcePath": "C:\\Users\\91863\\Arevea\\contracts\\External\\IERC721.sol",
+  "sourcePath": "C:\\Users\\91863\\Arevea-Avalanche\\Arevea\\contracts\\External\\IERC721.sol",
   "ast": {
     "absolutePath": "project:/contracts/External/IERC721.sol",
     "exportedSymbols": {
@@ -1920,7 +1920,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.8",
-  "updatedAt": "2022-07-21T08:02:06.578Z",
+  "updatedAt": "2022-07-21T11:10:59.463Z",
   "devdoc": {
     "kind": "dev",
     "methods": {
