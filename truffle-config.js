@@ -15,16 +15,27 @@ module.exports = {
      },
     
     
-    // Useful for deploying to a public network.
+    
     // Note: It's important to wrap the provider as a function to ensure truffle uses a new provider every time.
      rinkeby: {
        provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/363d85f74ab4447092870aa4086a1233`),
-       network_id: 4,       // Ropsten's id
-       gas: 5500000,        // Ropsten has a lower block limit than mainnet
+       network_id: 4,       // Rinkeby's id
+       gas: 5500000,        // Rinkeby has a lower block limit than mainnet
        confirmations: 2,    // # of confirmations to wait between deployments. (default: 0)
        timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
        skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
      },
+
+
+    // Note: It's important to wrap the provider as a function to ensure truffle uses a new provider every time.
+    Avalanche : {
+      provider: () => new HDWalletProvider(mnemonic, `https://api.avax-test.network/ext/bc/C/rpc`),
+      network_id: 43113,       // Rinkeby's id
+      gas: 5500000,        // Rinkeby has a lower block limit than mainnet
+      confirmations: 2,    // # of confirmations to wait between deployments. (default: 0)
+      timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
+      skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
+    },
     
   },
 
