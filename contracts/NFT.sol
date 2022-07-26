@@ -47,17 +47,16 @@ contract NFT is ERC721 {
     /**
      * @dev Internal function to mint a new token.
      * Reverts if the given token ID already exists.
-     * @param sign struct combination of uint8, bytes32, bytes32 are v, r, s.
      * @param tokenURI string memory URI of the token to be minted.
      * @param fee uint256 royalty of the token to be minted.
      */
 
-    function createNFT(string memory tokenURI, uint256 fee, Sign memory sign) external returns (uint256) {
-        require(!usedNonce[sign.nonce], "Nonce : Invalid Nonce");
+    function createNFT(string memory tokenURI, uint256 fee) external returns (uint256) {
+      //  require(!usedNonce[sign.nonce], "Nonce : Invalid Nonce");
         require(!tokenURIs[tokenURI],"Minting: Duplicate Minting");
-        usedNonce[sign.nonce] = true;
+      //  usedNonce[sign.nonce] = true;
         uint256 newItemId = tokenCounter;
-        verifySign(tokenURI, msg.sender, sign);
+      //  verifySign(tokenURI, msg.sender, sign);
         _safeMint(msg.sender, newItemId, fee);
         _setTokenURI(newItemId, tokenURI);
         tokenURIs[tokenURI] = true;

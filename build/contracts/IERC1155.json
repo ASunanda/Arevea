@@ -400,7 +400,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\r\n// OpenZeppelin Contracts (last updated v4.7.0) \r\n\r\npragma solidity ^0.8.4;\r\n\r\nimport \"./IERC165.sol\";\r\n\r\ninterface IERC1155 is IERC165 {\r\n\r\n    event TransferSingle(address indexed operator, address indexed from, address indexed to, uint256 id, uint256 value);\r\n    event TransferBatch(address indexed operator, address indexed from, address indexed to, uint256[] ids, uint256[] values);\r\n    event ApprovalForAll(address indexed account, address indexed operator, bool approved);\r\n    event URI(string value, uint256 indexed id);\r\n    event tokenBaseURI(string value);\r\n\r\n\r\n    function name() external view returns (string memory);\r\n    function symbol() external view returns (string memory);\r\n    function balanceOf(address account, uint256 id) external view returns (uint256);\r\n    function royaltyFee(uint256 tokenId) external view returns(uint256);\r\n    function getCreator(uint256 tokenId) external view returns(address);\r\n    function tokenURI(uint256 tokenId) external view returns (string memory);\r\n    function balanceOfBatch(address[] calldata accounts, uint256[] calldata ids) external view returns (uint256[] memory);\r\n    function setApprovalForAll(address operator, bool approved) external;\r\n    function isApprovedForAll(address account, address operator) external view returns (bool);\r\n    function safeTransferFrom(address from, address to, uint256 id, uint256 amount, bytes calldata data) external;\r\n    function safeBatchTransferFrom(address from, address to, uint256[] calldata ids, uint256[] calldata amounts, bytes calldata data) external;\r\n}\r\n",
-  "sourcePath": "C:\\Users\\91863\\Arevea-Avalanche\\Arevea\\contracts\\External\\IERC1155.sol",
+  "sourcePath": "C:\\Users\\91863\\Arevea\\contracts\\External\\IERC1155.sol",
   "ast": {
     "absolutePath": "project:/contracts/External/IERC1155.sol",
     "exportedSymbols": {
@@ -2181,7 +2181,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.8",
-  "updatedAt": "2022-07-21T12:38:13.713Z",
+  "updatedAt": "2022-07-26T11:53:07.393Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

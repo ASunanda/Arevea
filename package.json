@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ASunanda/Arevea#readme",
   "dependencies": {
-    "@truffle/hdwallet-provider": "^2.0.11",
+    "@truffle/hdwallet-provider": "^2.0.12",
     "truffle-hdwallet-provider": "^1.0.17"
   }
 }

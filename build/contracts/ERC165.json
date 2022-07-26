@@ -30,7 +30,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\r\n// OpenZeppelin Contracts (last updated v4.7.0) \r\n\r\npragma solidity ^0.8.4;\r\n\r\nimport \"./IERC165.sol\";\r\n\r\nabstract contract ERC165 is IERC165 {\r\n\r\n    bytes4 private constant _INTERFACE_ID_ERC165 = 0x01ffc9a7;\r\n\r\n    mapping(bytes4 => bool) private _supportedInterfaces;\r\n\r\n    constructor () {\r\n        _registerInterface(_INTERFACE_ID_ERC165);\r\n    }\r\n\r\n    function supportsInterface(bytes4 interfaceId) external view virtual override returns (bool) {\r\n        return _supportedInterfaces[interfaceId];\r\n    }\r\n\r\n    function _registerInterface(bytes4 interfaceId) internal virtual {\r\n        require(interfaceId != 0xffffffff, \"ERC165: invalid interface id\");\r\n        _supportedInterfaces[interfaceId] = true;\r\n    }\r\n}\r\n",
-  "sourcePath": "C:\\Users\\91863\\Arevea-Avalanche\\Arevea\\contracts\\External\\ERC165.sol",
+  "sourcePath": "C:\\Users\\91863\\Arevea\\contracts\\External\\ERC165.sol",
   "ast": {
     "absolutePath": "project:/contracts/External/ERC165.sol",
     "exportedSymbols": {
@@ -670,7 +670,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.8",
-  "updatedAt": "2022-07-21T12:38:13.705Z",
+  "updatedAt": "2022-07-26T11:53:07.385Z",
   "devdoc": {
     "kind": "dev",
     "methods": {
