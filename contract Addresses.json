@@ -1,0 +1,18 @@
+{
+    "Rinkeby" : {
+        "single" : "0x947784b7a6dB9A374D0729Fd53972E14af6AAAeC",
+        "Multiple" :"0x6406A0987DDAbBE414deefa1270289A3C44FB164" 
+    },
+    
+   "Avalanche" : {
+      "single" : "",
+      "Multiple" :"" 
+    },
+
+    "Matic" : {
+        "single" : "",
+        "Multiple" :"" 
+      }
+
+}
+

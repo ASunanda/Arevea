@@ -29,16 +29,22 @@ module.exports = {
     
     Avalanche : {
       provider: () => new HDWalletProvider(mnemonic, `https://api.avax-test.network/ext/bc/C/rpc`),
-      network_id: 43113,       
-      gas: 5500000      
+      network_id: 43113, 
+      gas: 5500000,
+      confirmations: 2,
+      timeoutBlocks:200,
+      skipDryRun: true      
+    },
 
-     },
 
-
-     Matic : {
+     matic : {
       provider: () => new HDWalletProvider(mnemonic, `https://rpc-mumbai.maticvigil.com/`),
       network_id: 80001,      
-      gas: 5500000,        
+      gas: 5500000,
+      confirmations: 2,
+      timeoutBlocks:200,
+      skipDryRun: true,
+      networkCheckTimeout:1000000       
       
 
     },
