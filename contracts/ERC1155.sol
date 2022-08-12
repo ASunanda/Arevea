@@ -27,7 +27,7 @@ contract ERC1155 is Context, ERC165,IERC1155{
 
     // Mapping from account to operator approvals
     mapping (address => mapping(address => bool)) private _operatorApprovals;
-    string public tokenURIPrefix = "https://gateway.pinata.cloud/ipfs/";
+    string public tokenURIPrefix = "";
 
     // Optional mapping for token URIs
     mapping(uint256 => string) private _tokenURIs;
